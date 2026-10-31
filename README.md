@@ -14,10 +14,13 @@ Using the np.linalg.solve(), we can find the solutions.
 ### Step 4: 
 End the program
 ## Program:
-'''
+
 #Program to find the solution for the given linear equations.
+
 #Developed by: Ajay Karthick M
+
 #RegisterNumber: 212225040014
+```
 import os
 os.environ["OPENBLAS_NUM_THREADS"] = "1"
 
@@ -30,7 +33,7 @@ C = np.linalg.solve(A, B)
 
 print(C)
 
-'''
+```
 ## Output:
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/b85d05c6-0109-4c18-8abc-c14153474393" />
